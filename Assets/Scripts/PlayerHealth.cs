@@ -9,18 +9,10 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField]
     Slider healthSlider;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /// <summary>
+    /// Lower the player's health by an amount
+    /// </summary>
+    /// <param name="value">The amount health to take away</param>
     public void DecreaseHealth(float value)
     {
         healthSlider.value -= value;

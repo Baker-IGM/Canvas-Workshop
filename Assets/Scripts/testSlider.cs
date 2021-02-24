@@ -4,18 +4,10 @@ using UnityEngine;
 
 public class testSlider : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /// <summary>
+    /// A fucntion to handle the change in a value
+    /// </summary>
+    /// <param name="value">the new vaule</param>
     public void OnChange(float value)
     {
         Debug.Log(value);
