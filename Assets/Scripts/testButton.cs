@@ -28,6 +28,9 @@ public class testButton : MonoBehaviour
 
     public void Repeat(int num)
     {
-
+        for(int i = 0; i < num; ++i)
+        {
+            Debug.Log("Hey! Listen!");
+        }
     }
 }
